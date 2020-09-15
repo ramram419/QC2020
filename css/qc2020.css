@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+}
+
+nav .home {
+  width: 100%;
+  line-height: 1;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+nav .home a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header {
+  background-image: url(../image/1574969816177.jpg) !important;
+}
+
+.btn {
+  font-size: 20px;
+  width: 150px;
+}
+
+.page-section {
+  height: 700px;
+}
+
+#content {
+  text-align: center;
+}
+
+.start {
+  background-color: #484280;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.start h2 {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=qc2020.css.map */
