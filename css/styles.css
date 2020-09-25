@@ -43,6 +43,7 @@ h6 {
 
 .page-section {
  padding: 100px 0;
+ height: 700px;
 }
 
 .page-section h2.section-heading {
@@ -104,7 +105,8 @@ img::-moz-selection {
  outline-offset: 0;
  transition: all 1s cubic-bezier(0.19,1,.22,1);
  height: 50px;
- width: 100px;
+ width: 150px;
+ font-size: 20px;
 }
 
 .btn:hover {
@@ -114,6 +116,24 @@ img::-moz-selection {
  box-shadow: inset 0 0 20px rgba(255,255,255,0.5), 0 0 20px rgba(255,255,255,.2);
  outline-color: rgba(255,255,255,0);
  outline-offset: 15px;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+}
+
+.home { 
+  width: 100%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 1px;
+  font-size: 30px;
+}
+
+.home a{
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .top_button {
@@ -258,6 +278,11 @@ img::-moz-selection {
  }
 }
 
+header {
+  background-image: url(../image/1574969816177.jpg) !important;
+}
+
+
 header.masthead {
  text-align: center;
  color: white;
@@ -316,8 +341,16 @@ header.masthead .intro-text .intro-heading {
  text-align: center;
 }
 
+.start {
+  background-color: rgba(110, 65, 193, 0.3);
+  text-align: center;
+  padding: 60px 0;
+}
 
-
+.start h2 {
+  color: black;
+  margin-bottom: 50px;
+}
 
 
 .footer {
@@ -334,52 +367,3 @@ header.masthead .intro-text .intro-heading {
  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.blockquote {
-  position: relative;
-  text-align: center;
-  width: 300px;
-  height: 130px;
-  border-top: solid 1px rgb(116,104,245);
-  border-bottom: solid 1px rgb(116,104,245);
-  border-left: solid 1px rgb(116,104,245);
-  border-left: 75px;
-  margin: 150px auto;
-  padding: 10px;
-}
-
-.blockquote .text{
-  color: black;
-  font-weight: bold;
-  position: relative;
-  font-size: 30px;
-  margin: 20px auto;
-  line-height: 2.5;
-}
-
-.blockquote:before {
-  position: absolute;
-  content: '\201C';
-  color: rgb(116,104,245);
-  font-size: 10rem;
-  line-height: 0;
-  top: 35px;
-  left: 30px;
-}
-
-.blockquote:after {
-  position: absolute;
-  content: '\201D';
-  color:rgb(116,104,245);
-  font-size: 10rem;
-  line-height: 0;
-  bottom: -43px;
-  right: 30px;
-}
-/* 
-.blockquote .text:before{
-  content: '\27B0';
-}
-
-.blockquote .text:after{
-  content: '\27B0';
-} */
