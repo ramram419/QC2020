@@ -1,3 +1,11 @@
+@mixin root-fs($root) {
+  font-size: $root;
+}
+
+@mixin h1($h1) {
+  font-size: $h1;
+}
+
 @mixin base($border-width) {
   width: $d-width;
   border-width: $border-width;
@@ -29,9 +37,10 @@
   }
 }
 
-@mixin bq_text($font-size){
+@mixin bq_text($qfont){
   position: $position-r;
-  font-size: $font-size;
+  font-size: $qfont;
+  font-family: $q-fontfamily;
   color: $black;
   font-weight: $font-b;
 }

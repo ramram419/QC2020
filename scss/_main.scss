@@ -2,6 +2,13 @@
   @include base(1px);
 }
 
+body{
+  @include root-fs($root);
+}
+
+h1{
+  @include h1($h1);
+}
 
 .blockquote {
   @include blockquote(1px, 10rem);
@@ -13,7 +20,7 @@
 }
 
 .blockquote .text{
-  @include bq_text(30px);
-  margin: 20px auto;
+  @include bq_text($qfont);
+  margin: 10px auto;
   line-height: 2.5;
 }
